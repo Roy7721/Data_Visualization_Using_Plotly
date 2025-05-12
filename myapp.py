@@ -21,7 +21,7 @@ plot = st.sidebar.button('Plot Graph')
 
 if plot:
 
-    st.markdown("<h1 style='text-align: center; color: #D3D3D3;'>Size represents the primary parameter</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #D3D3D3;'>Bubble Size represents the primary parameter</h1>", unsafe_allow_html=True)
     st.markdown("<h2 style='text-align: center; color: #D3D3D3;'>Color represents the secondary parameter</h2>", unsafe_allow_html=True)
 
     if selected_division == 'Overall Bangladesh':
